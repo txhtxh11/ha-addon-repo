@@ -1,0 +1,21 @@
+{
+  "name": "ESPHome YAML 生成器",
+  "version": "1.0.0",
+  "slug": "esphome_yaml_generator",
+  "description": "生成ESPHome YAML配置的Web工具",
+  "arch": ["amd64", "armhf", "armv7", "aarch64"],
+  "startup": "application",
+  "boot": "auto",
+  "ingress": true,
+  "ingress_port": 80,
+  "panel_icon": "mdi:code-json",
+  "ports": {
+    "80/tcp": 8080
+  },
+  "ports_description": {
+    "80/tcp": "Web interface"
+  },
+  "map": ["config:rw"],
+  "options": {},
+  "schema": {}
+}
