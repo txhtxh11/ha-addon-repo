@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "slug": "esphome_yaml_generator",
   "description": "生成ESPHome YAML配置的Web工具",
+  "url": "https://github.com/txhtxh11/ha-addon-repo",
   "arch": ["amd64", "armhf", "armv7", "aarch64"],
   "startup": "application",
   "boot": "auto",
